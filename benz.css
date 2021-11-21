@@ -1,0 +1,361 @@
+
+.navbar ul{
+    list-style: none;
+    background: #000;
+    padding-top: 1%;
+    margin-top: -2%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    z-index: 8;
+    position: fixed;
+    width: 100%;
+    text-decoration: none;
+    margin-left: -10px;
+
+}
+.navbar li{
+    position: relative;
+    
+    padding-top: 57px;
+    margin-left: 43px;
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font: inherit;
+    font-style: inherit;
+    font-variant-ligatures: inherit;
+    font-variant-caps: inherit;
+    font-variant-numeric: inherit;
+    font-variant-east-asian: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+}
+.myButton {
+    background:url(/images/Btn.PNG) no-repeat;
+    cursor:pointer;
+    width: 200px;
+    height: 100px;
+    border: none;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}.image input{
+    height: 90px;
+    margin-left: -128px;
+
+
+}
+
+.main{
+    
+    background-color: rgb(2, 2, 2);
+    height: 1000px;
+    margin-right: -1%;
+    margin-left: -1%;
+    width: 102%;
+
+}
+
+#cf6_image {
+    margin:0 auto;
+    width:100%;
+    height:900px;
+    transition: background-image 1s ease-in-out;
+    background-image:url("/benz/image/01-mercedes-benz-iaa-mobility-2021-3400x1440.webp");
+  }
+  
+  #cf6_image:hover {
+    background-image:url("/benz/image/01-mercedes-eq-eqb-2021-x243-3400x1440.webp");
+  }
+  #cf6_image:hover {
+    background-image:url("/benz/image/maybach-3400x1440.webp");
+  } 
+  .main h1{
+      padding-top: 15%;
+      color: white;
+      font-family: MBCorpo Title,DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
+      padding-left: 10%;
+      font-weight: 1;
+  }
+  .main h1:hover{
+      color: black;
+  }
+  .main a{
+    text-decoration: none;
+  }
+.form{
+    padding-left: 20%;
+    padding-top: 2%;
+}
+.main2{
+    width: 101%;
+    height: 800px;
+    background-color: rgb(2, 2, 2);
+    text-align: center;
+    margin-top: -22px;
+    margin-left: -8px;
+}
+.note{
+    color: white;
+}
+.note h1{
+    color: white;
+    font-family: MBCorpo Title,DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
+    padding-top: 3%;
+    font-weight: 1;
+}
+.note p{
+    font-size: 15px;
+    padding-top: 2%;
+}
+.note a{
+    text-decoration: none;
+    color: #278de7;
+}
+.main2 button{
+    background: #3388c2;
+    width: 187px;
+    margin-top: 2%;
+    height: 3%;
+    color: white;
+    border-bottom-width: 0;
+    
+       
+}
+.im{
+    opacity: 0.0;
+    transition: all 0.5s ease-out;
+
+}
+.im:hover{
+    opacity: 1.0;
+
+}
+
+#img1{
+    padding-top: 253px;
+    padding-right: -62px;
+  
+   
+}
+#img1:hover{
+   
+
+}
+#img2{
+    padding-top: 253px;
+    padding-left: 30px ;
+  
+    
+}
+.pic{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+}
+#im1{
+   width: 33.3%;
+    height: 398px;
+    margin-left: -10px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    opacity: 0.3;
+    
+    
+}
+#im1:hover{
+    opacity: 1;
+}
+.pi1{
+   
+    margin-top: 1px;
+    width: 101%;
+    background-color: rgb(3, 3, 3);
+}
+#im1:hover{
+  
+}
+#im2{
+  width: 33.4%;
+    margin-left: -3px;
+   height: 398px;
+   padding-left: 3px;
+   opacity: 0.3;
+}
+#im2:hover{
+    opacity: 1;
+}
+.pi2{
+    margin-top: 1px;
+    width: 101%;
+    background-color: rgb(2, 2, 2);
+
+
+}
+
+
+#im3{
+   
+    height: 398px;
+    width: 606px;
+    opacity: 0.3;
+   
+
+}
+#im3:hover{
+    opacity: 1;
+}
+
+#im4{
+    width: 33.5%;
+    height: 398px;
+    margin-left: -10px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    opacity: 0.3;
+    
+}
+#im4:hover{
+    opacity: 1;
+}
+#im5{
+    width: 33.7%;
+    margin-left: -3px;
+   height: 398px;
+   padding-left: 3px;
+    opacity: 0.3;
+}
+#im5:hover{
+    opacity: 1;
+
+}
+#im6{
+    height: 398px;
+    width: 603px;
+    opacity: 0.3;
+   
+}
+#im6:hover{
+    opacity: 1;
+
+}
+.foot{
+    height: 561px;
+    width: 101%;
+   margin-top: -27px;
+   background-color: #020202;
+   font-size: 16px;
+   text-align: center;
+}
+.foot h6{
+    box-sizing: inherit;
+    padding-top: 50px;
+    font-size:12px;
+    font-weight: 100;
+    color: 
+    #fcfaf8
+    ;
+}
+.foot hr{
+    border: width 1px;
+    width: 80%;
+}
+.col1{
+    padding-left: 0rem;
+    background-color: #050505;
+    width: 25%;
+    height: 300px;
+    
+}
+.col1 li{
+    list-style-type: none;
+    font-weight: 100;
+    color: 
+    #f8f6f4
+    ;
+
+
+
+}
+.col2{
+    padding-left: 0rem;
+    background-color: #030303;
+    width: 25%;
+    height: 300px;
+    margin-left: 400px;
+    margin-top: -328px;
+ 
+}
+.col2 li{
+    list-style-type: none;
+    font-weight: 100;
+    color: 
+    #f8f6f5
+    ;
+
+
+
+}
+.col3{
+    padding-left: 0rem;
+    background-color: #030303;
+    width: 25%;
+    height: 300px;
+    margin-left: 800px;
+    margin-top: -328px;
+    
+}
+.col3 li{
+    list-style-type: none;
+    font-weight: 100;
+    color: 
+    #fffcf9
+    ;
+
+
+
+}
+.col4{
+    padding-left: 0rem;
+    background-color:#0c0c0c;
+    width: 25%;
+    height: 300px;
+    margin-left: 1200px;
+    margin-top: -328px;
+ 
+}
+.col4 li{
+    list-style-type: none;
+    font-weight: 100;
+    color: 
+    #f8f6f4
+    ;
+    
+
+
+
+}
+
+
+
+
+
+
+
+  
+
+
+ 
+
+
+
+
+    
+    
+    
